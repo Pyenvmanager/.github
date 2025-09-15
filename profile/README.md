@@ -23,7 +23,7 @@ We’re excited to announce the first public release of **PyEnvManager**, a cros
 
 * Detect hidden/stale environments that could waste disk space or pose risks.
 * Built-in vulnerability scanning (CVE classification: Critical → Low).
-* Privacy-first design: PyEnvManager only scans developer directories and never touches personal files.
+* Privacy-first design
 
 ### 💳 Licensing
 
