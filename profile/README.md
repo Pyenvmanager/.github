@@ -1,6 +1,7 @@
 ## 🚀 PyEnvManager — First Public Release
 
 We’re excited to announce the first public release of **PyEnvManager**, a cross-platform desktop app that makes managing Python environments simple, secure, and visual. Think of it as *Docker Desktop for Python envs*.
+https://github.com/Pyenvmanager
 
 ### ✨ Highlights
 
