@@ -29,7 +29,7 @@ https://github.com/Pyenvmanager
 ### 💳 Licensing
 
 * **Free Tier**: Basic environment discovery & management.
-* **Pro Tier (\$49.99 early bird)**: Adds secure deletion, CVE scans, package insights, and templates.
+* **Pro Tier (\$49.99/year early bird)**: Adds secure deletion, CVE scans, package insights, and templates.
   Licenses are managed via **Dodo Payments** with secure server-side validation.
 
 ### 📦 Downloads
