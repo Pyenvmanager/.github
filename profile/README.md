@@ -13,7 +13,7 @@ https://github.com/Pyenvmanager
   Open Jupyter directly in the correct environment with one click.
 * **Environment Creation**
   Quickly create new environments with specific Python versions.
-* **Secure Environment Deletion** *(Pro feature)*
+* **Secure Environment Deletion** 
   Remove unused environments with disk space preview.
 * **Package & Vulnerability Scanning** *(Pro feature)*
   Detect outdated or vulnerable dependencies using OSV CVE data.
@@ -29,7 +29,7 @@ https://github.com/Pyenvmanager
 ### 💳 Licensing
 
 * **Free Tier**: Basic environment discovery & management.
-* **Pro Tier (\$49.99/year early bird)**: Adds secure deletion, CVE scans, package insights, and templates.
+* **Pro Tier (\$45/year early bird)**: Adds secure deletion, CVE scans, package insights, and templates.
   Licenses are managed via **Dodo Payments**.
 
 ### 📦 Downloads
