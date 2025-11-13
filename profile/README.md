@@ -1,44 +1,133 @@
-## 🚀 PyEnvManager — First Public Release
+# 🚀 PyEnvManager
+**Docker Desktop for Python environments.**  
+A cross-platform desktop app (Windows + macOS) for discovering, creating, securing, and managing Python environments — fast, visual, and safe.
 
-We’re excited to announce the first public release of **PyEnvManager**, a cross-platform desktop app that makes managing Python environments simple, secure, and visual. Think of it as *Docker Desktop for Python envs*.
-https://github.com/Pyenvmanager
+📌 **Website:** https://pyenvmanager.com  
+📦 **Releases:** https://pyenvmanager.com/releases.html  
+🐛 **Issues:** https://github.com/Pyenvmanager/pyenvmanager-releases/issues  
 
-### ✨ Highlights
+---
 
-* **Environment Discovery**
-  Automatically scans your system for `venv`, Conda, Mamba, Poetry, and Micromamba environments.
-* **Dashboard Overview**
-  See total environments, disk usage, and cleanup opportunities in one place.
-* **Jupyter Launching**
-  Open Jupyter directly in the correct environment with one click.
-* **Environment Creation**
-  Quickly create new environments with specific Python versions.
-* **Secure Environment Deletion** 
-  Remove unused environments with disk space preview.
-* **Package & Vulnerability Scanning** *(Pro feature)*
-  Detect outdated or vulnerable dependencies using OSV CVE data.
-* **Templates & Custom Installs** *(Pro feature)*
-  Spin up environments for ML, SciPy, Web, and more.
+## ⭐ What PyEnvManager Does
+PyEnvManager is a complete **Python environment management and security platform**. It automatically discovers environments from:
 
-### 🛡️ Security Focus
+- **venv**  
+- **Conda / Mamba / Micromamba**  
+- **Poetry**  
+- **UV**  
+- Hidden or stale environments  
+- Full system deep scans (Rust-powered)
 
-* Detect hidden/stale environments that could waste disk space or pose risks.
-* Built-in vulnerability scanning (CVE classification: Critical → Low).
-* Privacy-first design
+And it adds **enterprise-grade security features**, including:
 
-### 💳 Licensing
+- 🔍 **Vulnerability scanning** using the OSV database  
+- 🛡️ **Accurate CVE severity classification** (Critical → Low)  
+- 📦 **Per-environment package vulnerability summaries**  
+- 📄 **SBOM & HTML security reports**  
+- 📂 **Scan history with detailed statistics**  
+- 🔎 **Multi-phase scanning:** environment discovery → package inventory → CVE scan → SBOM → report
 
-* **Free Tier**: Basic environment discovery & management.
-* **Pro Tier (\$45/year early bird)**: Adds secure deletion, CVE scans, package insights, and templates.
-  Licenses are managed via **Dodo Payments**.
+All in a fast, modern UI built for developers, data scientists, and DevOps teams.
 
-### 📦 Downloads
+---
 
-* **Windows Installer (x64)**
-* **macOS DMG (arm64 & x64, notarized & stapled)**
+## 🔥 Latest Version: **v0.5.1** (Nov 14, 2025)
 
-### 🐛 Feedback
+### 🎓 Interactive Tutorial System
+- Onboarding for Free + Pro features  
+- Step-by-step guidance and progress tracking  
+- Integrated YouTube tutorials (@pyenvmanager)
 
-This is an early release! Please report bugs or feature requests via the GitHub issues page or at [[pyenvmanager.com](https://pyenvmanager.com/)].
+### 💬 In-App Feedback
+- Feedback button in the top bar  
+- Direct GitHub Issue links  
+- Pre-filled templates for bug reports & feature requests
 
+### 🪟 Windows 11 Light Mode Fix
+- Button/text color issues fully resolved  
+- Thanks **@vmiengineering** for reporting!
 
+---
+
+## 🔐 Security & Deep Scanning
+
+### 🔍 Multi-Phase System Scan
+- Environment discovery  
+- Package inventory  
+- Vulnerability scanning (OSV)  
+- SBOM generation  
+- Professional HTML reports  
+- Scan history & deletion
+
+### 🛡️ CVE Insights (Pro)
+- Accurate severity mapping (CRITICAL → LOW)  
+- Vulnerability grouping per environment  
+- Executive summaries and detailed breakdowns  
+
+---
+
+## 🛠️ Core Features
+- 🔍 **Auto-discovery** of all Python environments  
+- ⚡ **Create environments** (venv, Conda, Mamba, Micromamba)  
+- 📒 **Launch Jupyter Notebook** in any environment  
+- 📦 **Install/upgrade/remove packages**  
+- 🧹 **Secure environment deletion** (now free)  
+- 🎨 **Color-coded environment types**  
+- 🧭 **Disk usage visualization**  
+- 🗂️ **Environment templates** (ML / SciPy / Web — Pro)
+
+---
+
+## 🧩 Supported Environments
+
+| Manager       | Detection | Creation      | Package View | Deletion |
+|---------------|-----------|---------------|--------------|----------|
+| venv          | ✅        | ✅            | ✅           | ✅       |
+| Conda         | ✅        | ⚪            | ✅           | ✅       |
+| Mamba         | ✅        | ✅            | ✅           | ✅       |
+| Micromamba    | ✅         | ✅            | ✅           | ✅       |
+| UV            | ✅        | ⚪            |  ✅         | ⚪       |
+| Poetry        | ✅        | —             | —            | —       |
+
+> Creation + package support expands in v0.6.x.
+
+---
+
+## 💳 Pricing
+
+**Free Tier**  
+Environment discovery, visualization, deletion, package install, deep scanning engine, base scanning.
+
+**Pro Tier — $55/year**  
+- Vulnerability scanning  
+- SBOM & HTML reports  
+- Templates (ML / SciPy / Web)  
+- Detailed package insights  
+- Advanced scanning workflows  
+
+---
+
+## 📦 Downloads
+Download the latest version:
+
+👉 https://pyenvmanager.com/releases.html
+
+- **Windows (x64)** — `.exe` installer  
+- **macOS (ARM64 + x64)** — notarized `.dmg`
+
+---
+
+## 🐛 Feedback
+Report bugs or request features here:  
+👉 https://github.com/Pyenvmanager/pyenvmanager-releases/issues
+
+---
+
+## ❤️ Contributing
+We welcome:
+- Bug reports  
+- Feature suggestions  
+- Documentation improvements  
+- Environment compatibility feedback  
+
+> Contribution guidelines coming soon.
