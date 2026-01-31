@@ -93,18 +93,6 @@ All in a fast, modern UI built for developers, data scientists, and DevOps teams
 
 ---
 
-## 💳 Pricing
-
-**Free Tier**  
-Environment discovery, visualization, deletion, package install, deep scanning engine, base scanning.
-
-**Pro Tier — $55/year**  
-- Vulnerability scanning  
-- SBOM & HTML reports  
-- Templates (ML / SciPy / Web)  
-- Detailed package insights  
-- Advanced scanning workflows  
-
 ---
 
 ## 📦 Downloads
